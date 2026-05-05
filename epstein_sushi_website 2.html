@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Epstein Sushi</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0f172a;
+  --card:#111827;
+  --text:#e5e7eb;
+  --accent:#22c55e;
+}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#0f172a,#020617);
+  color:var(--text);
+}
+header{
+  text-align:center;
+  padding:60px 20px;
+}
+header h1{
+  font-size:3rem;
+  margin:0;
+}
+header p{
+  opacity:0.8;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+  display:grid;
+  gap:20px;
+}
+.section{
+  background:var(--card);
+  border-radius:20px;
+  padding:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+.section h2{
+  margin-top:0;
+  border-bottom:1px solid rgba(255,255,255,0.1);
+  padding-bottom:10px;
+}
+.menu-item{
+  display:flex;
+  justify-content:space-between;
+  padding:12px 0;
+  border-bottom:1px solid rgba(255,255,255,0.05);
+}
+.menu-item:last-child{border:none;}
+.price{
+  color:var(--accent);
+  font-weight:600;
+}
+.badge{
+  display:inline-block;
+  background:var(--accent);
+  color:#022c22;
+  padding:5px 10px;
+  border-radius:999px;
+  font-size:0.8rem;
+  margin-left:10px;
+}
+footer{
+  text-align:center;
+  padding:30px;
+  opacity:0.6;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍣 Epstein Sushi</h1>
+  <p>Lunchmeny • Vardagar 11–14 • inkl. misosoppa</p>
+</header>
+
+<div class="container">
+
+<div class="section">
+  <h2>Sushi <span class="badge">Alla 67 kr</span></h2>
+  <div class="menu-item"><span>7 bitar (3 nigiri / 4 maki)</span><span class="price">67 kr</span></div>
+  <div class="menu-item"><span>9 bitar (5 nigiri / 4 maki)</span><span class="price">67 kr</span></div>
+  <div class="menu-item"><span>11 bitar (5 nigiri / 6 maki)</span><span class="price">67 kr</span></div>
+  <div class="menu-item"><span>12 bitar lax (4 lax nigiri / 8 maki)</span><span class="price">67 kr</span></div>
+  <div class="menu-item"><span>13 bitar (7 nigiri / 6 maki)</span><span class="price">67 kr</span></div>
+</div>
+
+<div class="section">
+  <h2>Övrigt</h2>
+  <div class="menu-item"><span>Tempura räkor (5 st) med ris, sjögrässallad och grönsaker</span><span class="price">99 kr</span></div>
+</div>
+
+<div class="section">
+  <h2>Poke Bowls</h2>
+  <div class="menu-item"><span>Lax</span><span class="price">119 kr</span></div>
+  <div class="menu-item"><span>Tonfisk</span><span class="price">119 kr</span></div>
+  <div class="menu-item"><span>Mix (lax & tonfisk)</span><span class="price">119 kr</span></div>
+  <div class="menu-item"><span>Vegetarisk (tofu, avokado, gurka)</span><span class="price">119 kr</span></div>
+</div>
+
+</div>
+
+<footer>
+  <p>© 2026 Epstein Sushi • Modern Sushi Experience</p>
+</footer>
+
+</body>
+</html>
